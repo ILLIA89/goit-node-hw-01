@@ -3,7 +3,11 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "nanoid": "^5.0.3"
   }
 }
